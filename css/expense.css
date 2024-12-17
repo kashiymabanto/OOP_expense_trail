@@ -1,0 +1,137 @@
+
+body{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/008/878/933/non_2x/online-shopping-store-on-smartphone-with-shopping-cart-and-bags-on-purple-background-3d-rendering-free-photo.jpg");
+    background-size: container;
+}
+
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Light gray background */
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #f8f9fa;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: #000;
+}
+
+.navbar-nav .nav-link.active {
+    font-weight: bold;
+}
+
+/* Alert Styling */
+.alert {
+    width: 300px;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+/* Container and Form Styling */
+.petty_cash {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.box {
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 8px;
+    padding: 2rem;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.box h1 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+/* Form Control Styling */
+.form-label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.form-control,
+.form-select {
+    border-radius: 5px;
+    height: 40px;
+    font-size: 14px;
+}
+
+/* Button Styling */
+.btn-warning {
+    background-color: #4A54F1;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    border-radius: 5px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+/* Button Hover Effects */
+.btn-warning:hover {
+    background-color: #4A54F1;
+    border-color: #e0a800;
+}
+
+/* Form Input and Select Padding */
+input[type="date"],
+input[type="text"],
+select {
+    padding: 0.375rem 0.75rem;
+    width: 90%;
+}
+
+/* Form Alignment */
+.d-flex {
+    display: flex !important;
+}
+
+.justify-content-center {
+    justify-content: center !important;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 576px) {
+    .petty_cash {
+        margin-top: 2rem;
+    }
+
+    .box {
+        width: 90%;
+        max-width: 100%;
+    }
+}
+
+
+
+@keyframes fadeOut {
+    0% { opacity: 1; }
+    90% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+.alert {
+    position: fixed; /* Fix the position of the alert */
+    top: 60px;       /* Adjust distance from the top */
+    left: 50%;       /* Center horizontally */
+    transform: translateX(-50%); /* Centering adjustment */
+    z-index: 1050;   /* Ensure it appears above other content */
+    animation: fadeOut 5s forwards; /* Optional: fade-out animation */
+}

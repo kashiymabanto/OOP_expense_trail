@@ -1,0 +1,161 @@
+/* Main Form Container Styles */
+.box, .box2 {
+    background-color: rgba(255, 255, 255, 0.95); /* Slightly transparent white */
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    padding: 30px;
+    backdrop-filter: blur(10px);
+}
+
+/* History Section */
+.box {
+    max-width: 400px; /* Reduced width */
+    margin-right: 20px; /* Space between History and Expense Trail */
+}
+
+.box h1 {
+    font-size: 28px;
+    text-align: center;
+    color: #333333;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+/* Expense Trail Section */
+.box2 {
+    max-width: 6000px; /* Reduced width */
+    margin: 0 auto; /* Center align when on its own */
+    text-align: center;
+}
+
+.box2 h1 {
+    font-size: 28px;
+    color: #333333;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.box2 span {
+    font-size: 18px;
+    color: #555555;
+}
+
+/* Form Control Label Styling */
+.form-label {
+    font-size: 16px;
+    font-weight: 600;
+    color: #555555;
+    margin-bottom: 8px;
+}
+
+/* Input Field Styling */
+.form-control {
+    width: calc(100% - 24px); /* Adjust width for padding */
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    padding: 12px;
+    font-size: 14px;
+    background-color: #f1f1f1; /* Lighter background for inputs */
+    color: #333;
+    box-shadow: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Form Control Focus State */
+.form-control:focus {
+    border-color: #ffd43b;
+    box-shadow: 0 0 8px rgba(255, 212, 59, 0.4);
+    outline: none;
+}
+
+/* Button Styling */
+.btn-warning {
+    background-color: #4a54f1 !important;
+    border: none;
+    font-size: 18px;
+    color: white;
+    width: 100%;
+    padding: 12px;
+    margin-top: 25px;
+    border-radius: 8px; /* Rounded button */
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-warning:hover {
+    background-color: #4a54f1 !important;
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Ensure Uniform Field and Button Spacing */
+.box form .col-md-12 {
+    margin-bottom: 20px;
+}
+
+/* Additional Layout Adjustments */
+.container-fluid {
+    padding: 0 20px;
+}
+
+.petty_cash {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+body {
+    background-color: #e6eaf0;
+    font-family: Arial, sans-serif;
+}
+
+/* Expense Trail Section */
+.box2 {
+    max-width: 800px; /* Adjust the width to make it wider */
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px; /* Add padding for better spacing */
+}
+
+/* Styling the table */
+.box2 table {
+    width: 100%; /* Make the table take full width */
+    border-collapse: collapse; /* Remove the gap between borders */
+    margin-top: 15px; /* Add spacing above the table */
+}
+
+/* Table header styling */
+.box2 table thead th {
+    background-color: #f0f0f0; /* Light background for the header */
+    font-weight: bold;
+    border-bottom: 2px solid #ddd;
+    padding: 10px;
+    text-align: left; /* Align the text to the left */
+}
+
+/* Table row styling */
+.box2 table tbody td {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    text-align: left; /* Align the text to the left */
+}
+
+/* Center align the total row */
+.box2 .total {
+    font-weight: bold;
+    text-align: center;
+    margin: 15px 0;
+}
+
+/* Print link styling */
+.box2 .print-link {
+    margin-top: 10px;
+    display: block;
+    color: #007bff; /* Bootstrap's link color */
+    text-decoration: none;
+}
+
+.box2 .print-link:hover {
+    text-decoration: underline;
+}

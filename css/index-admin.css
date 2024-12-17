@@ -1,0 +1,90 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif; /* Font style for the entire document */
+    background-color: #f4f4f4; /* Light background for the entire page */
+    margin: 0; /* Remove default margin */
+}
+
+
+
+h2 {
+    color: #333333; /* Dark color for headings */
+    font-size: 28px; /* Font size for main headings */
+    border-bottom: 2px solid #4a54f1; /* Underline for headings */
+    padding-bottom: 10px; /* Space below heading */
+    text-align: center;
+}
+
+/* Table Styles */
+.table {
+    width: 70%; /* Full width for the table */
+    border-collapse: collapse; /* Collapse borders */
+    margin-top: 20px; /* Space above the table */
+}
+
+.table-borrwed{
+    display: flex;
+    justify-content: center;
+
+}
+
+.table th, .table td {
+    padding: 15px; /* Padding for table cells */
+    border: 1px solid #dee2e6; /* Border for table cells */
+    text-align: left; /* Align text to the left */
+}
+
+.table th {
+    background-color: #4a54f1; /* Purple background for headers */
+    color: #ffffff; /* White text for headers */
+    font-weight: bold; /* Bold text for headers */
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f2f2f2; /* Light grey for odd rows */
+}
+
+/* Button Styles */
+.btn {
+    padding: 10px 15px; /* Padding for buttons */
+    border-radius: 5px; /* Rounded corners for buttons */
+    border: none; /* Remove border */
+    cursor: pointer; /* Pointer on hover */
+    text-align: center; /* Center text in buttons */
+    text-decoration: none; /* Remove underline */
+    margin-right: 5px; /* Spacing between buttons */
+    font-size: 14px; /* Font size for buttons */
+}
+
+.btn-primary {
+    background-color: #4a54f1; /* Purple background for primary button */
+    color: #ffffff; /* White text for primary button */
+    transition: background 0.3s; /* Smooth background transition */
+}
+
+.btn-primary:hover {
+    background-color: #3b44c9; /* Darken on hover */
+}
+
+.btn-danger {
+    background-color: #e74c3c; /* Red background for danger button */
+    color: #ffffff; /* White text for danger button */
+    transition: background 0.3s; /* Smooth background transition */
+}
+
+.btn-danger:hover {
+    background-color: #c0392b; /* Darken on hover */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #f8f9fa; /* Light grey background for footer */
+    padding: 10px; /* Padding for footer */
+    text-align: center; /* Center text in footer */
+    position: relative; /* Position relative for footer */
+    margin-top: 20px; /* Space above footer */
+}
+
+.small {
+    color: #6c757d; /* Grey text for footer */
+}

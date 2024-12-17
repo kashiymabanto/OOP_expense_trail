@@ -1,0 +1,108 @@
+
+body{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/008/878/933/non_2x/online-shopping-store-on-smartphone-with-shopping-cart-and-bags-on-purple-background-3d-rendering-free-photo.jpg");
+    background-size: container;
+}
+
+body {
+    background-color: #f9f9f9; /* Slightly off-white background */
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #fff; /* White navbar */
+    border-bottom: 1px solid #e3e3e3; /* Light border */
+}
+
+.container.petty_cash {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.container.border {
+    background-color: #ffffff; /* White container */
+    border-radius: 10px; /* Rounded corners */
+    padding: 2rem; /* Padding */
+    width: 80%; /* Wider container */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+h1 {
+    text-align: center;
+    color: #333; /* Dark text for contrast */
+    margin-bottom: 1.5rem; /* Space below title */
+}
+
+.table {
+    margin-top: 1rem;
+    border-collapse: collapse; /* Collapse borders */
+    width: 100%; /* Full-width table */
+}
+
+.table th, .table td {
+    padding: 12px; /* Padding for cells */
+    text-align: center; /* Center text */
+    border: 1px solid #ddd; /* Light border for cells */
+}
+
+.table th {
+    background-color: #f2f2f2; /* Light gray header */
+    color: #333; /* Dark text for headers */
+}
+
+.table tbody tr:hover {
+    background-color: #e9ecef;
+     /* Light hover effect */
+}
+
+.btn {
+    padding: 8px 12px; /* Button padding */
+    border-radius: 5px; /* Rounded corners */
+    border: none; /* Remove border */
+    cursor: pointer; /* Pointer cursor */
+}
+
+.btn-success {
+    background-color: #4A54F1; /* Green button */
+    color: white; /* White text */
+}
+
+.btn-danger {
+    background-color: #dc3545; /* Red button */
+    color: white; /* White text */
+}
+
+.btn-success:hover {
+    background-color: #4A54F1; /* Darker green on hover */
+}
+
+.btn-danger:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
+
+.table-borrwed{
+    display: flex;
+  
+}
+
+/* Alert box styling */
+.alert {
+    border-radius: 5px; /* Slightly rounded corners */
+    margin-top: 1rem; /* Space above alerts */
+}
+
+@keyframes fadeOut {
+    0% { opacity: 1; }
+    90% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+.alert {
+    position: fixed; /* Fix the position of the alert */
+    top: 60px;       /* Adjust distance from the top */
+    left: 50%;       /* Center horizontally */
+    transform: translateX(-50%); /* Centering adjustment */
+    z-index: 1050;   /* Ensure it appears above other content */
+    animation: fadeOut 5s forwards; /* Optional: fade-out animation */
+}

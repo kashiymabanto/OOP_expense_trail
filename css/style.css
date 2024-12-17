@@ -1,0 +1,105 @@
+
+
+body{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/008/878/933/non_2x/online-shopping-store-on-smartphone-with-shopping-cart-and-bags-on-purple-background-3d-rendering-free-photo.jpg");
+    background-size: container;
+}
+
+/* Global Styles */
+
+/* Navbar Styles */
+.navbar {
+    background-color: transparent; /* Make the navbar transparent */
+}
+
+.title-bar {
+    font-size: 28px;
+    color: #333; /* Darker color for better visibility */
+    font-weight: 700;
+}
+
+/* Login Form Container */
+.login-form {
+    min-height: 100vh; /* Full height for centering */
+}
+
+.box {
+    background-color: rgba(255, 255, 255, 0.95); /* Slightly transparent white */
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    padding: 30px;
+    backdrop-filter: blur(10px); /* Soft background blur */
+    max-width: 400px; /* Adjust max width */
+    margin: auto; /* Centering */
+}
+
+/* Header Styles */
+.box h3 {
+    font-size: 24px;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Alert Styles */
+.alert {
+    border-radius: 20px; /* Rounded corners for alerts */
+}
+
+/* Input Field Styles */
+.form-control {
+    border-radius: 8px;
+    border: 1px solid #ccc; /* Light border */
+    padding: 12px;
+    font-size: 16px;
+    background-color: #f9f9f9; /* Light background */
+    color: #333;
+    box-shadow: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Input Focus State */
+.form-control:focus {
+    border-color: #ffd43b; /* Highlighted border color */
+    box-shadow: 0 0 8px rgba(255, 212, 59, 0.4);
+    outline: none;
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: #007bff; /* Bootstrap primary color */
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    padding: 12px;
+    border-radius: 8px; /* Rounded button */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Link Styles */
+.create_acc {
+    text-align: center; /* Centered text */
+}
+
+.create_acc a {
+    color: #007bff; /* Link color */
+    text-decoration: none; /* No underline */
+}
+
+.create_acc a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Additional Spacing */
+.mt-3 {
+    margin-top: 1rem; /* Add spacing for margin */
+}
+
+.mt-4 {
+    margin-top: 1.5rem; /* Add spacing for margin */
+}

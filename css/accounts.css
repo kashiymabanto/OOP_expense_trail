@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* Reset default styles */
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Container */
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.container-fluid {
+    width: 100%;
+    padding: 0 2rem;
+}
+
+/* Form box */
+.box {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+
+.text-center {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.mt-3 {
+    margin-top: 1rem;
+}
+
+.mt-4 {
+    margin-top: 1.5rem;
+}
+
+.mt-5 {
+    margin-top: 3rem;
+}
+
+.pt-5 {
+    padding-top: 3rem;
+}
+
+/* Form input */
+.form-label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control:focus {
+    border-color: #80bdff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+}
+
+/* Submit button */
+.btn-warning {
+    background-color: #4a54f1;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.btn-warning:hover {
+    background-color: #e0a800;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+/* Alerts */
+.alert {
+    padding: 1rem;
+    border-radius: 0.25rem;
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+
+    
+
+
+@keyframes fadeOut {
+    0% { opacity: 1; }
+    90% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+.alert {
+    position: fixed; /* Fix the position of the alert */
+    top: 60px;       /* Adjust distance from the top */
+    left: 50%;       /* Center horizontally */
+    transform: translateX(-50%); /* Centering adjustment */
+    z-index: 1050;   /* Ensure it appears above other content */
+    animation: fadeOut 5s forwards; /* Optional: fade-out animation */
+}
